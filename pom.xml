@@ -17,7 +17,7 @@
         <azure.functions.maven.plugin.version>1.3.4</azure.functions.maven.plugin.version>
         <azure.functions.java.library.version>1.3.0</azure.functions.java.library.version>
         <functionAppName>demo-1572008684345</functionAppName>
-        <functionAppRegion>westus</functionAppRegion>
+        <functionAppRegion>westeurope</functionAppRegion>
         <stagingDirectory>${project.build.directory}/azure-functions/${functionAppName}</stagingDirectory>
         <functionResourceGroup>java-functions-group</functionResourceGroup>
     </properties>
