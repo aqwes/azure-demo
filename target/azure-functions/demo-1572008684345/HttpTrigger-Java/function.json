@@ -1,0 +1,14 @@
+{
+  "scriptFile" : "../demo-1.0-SNAPSHOT.jar",
+  "entryPoint" : "com.function.Function.run",
+  "bindings" : [ {
+    "type" : "httpTrigger",
+    "direction" : "in",
+    "name" : "req",
+    "methods" : [ "GET", "POST" ]
+  }, {
+    "type" : "http",
+    "direction" : "out",
+    "name" : "$return"
+  } ]
+}
